@@ -5,7 +5,7 @@
 #include <string>
 #include <thread>
 #include <list>
-#include<fstream>
+#include <fstream>
 
 using namespace std;
 using namespace ftxui;
@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
     imagen.open("./assets/imagen.txt");
 
     string linea;
-    while (getline(imagen,linea))
+    while (getline(imagen, linea))
     {
         textos.push_back(linea);
     }
